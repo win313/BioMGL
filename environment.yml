@@ -1,0 +1,26 @@
+name: biomgl
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+dependencies:
+  - python=3.9.23
+  - pip
+  - pytorch=2.6.0
+  - pytorch-cuda=12.4
+  - numpy=1.26.4
+  - scipy=1.13.1
+  - pandas=2.3.3
+  - scikit-learn=1.6.1
+  - scanpy=1.10.3
+  - anndata=0.10.9
+  - h5py=3.14.0
+  - matplotlib=3.9.4
+  - networkx
+  - python-louvain
+  - tqdm
+  - python-igraph
+  - leidenalg
+  - pip:
+      - llama-cpp-python==0.3.28
+      - transformers
